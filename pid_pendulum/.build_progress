@@ -175,3 +175,4 @@
 - Adjust simulation timestep for numerical stability checks (iteration 174)
 - Refine cart friction parameter in physics settings (iteration 175)
 - Update random seed default for reproducible startup angles (iteration 176)
+- Refine control output limits in PID configuration (iteration 177)
