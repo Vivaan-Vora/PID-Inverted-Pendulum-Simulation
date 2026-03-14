@@ -178,3 +178,4 @@
 - Refine control output limits in PID configuration (iteration 177)
 - Adjust pole mass parameter in physics configuration (iteration 178)
 - Update logging settle tolerance for recovery metrics (iteration 179)
+- Refine anti-windup gain in PID settings (iteration 180)
