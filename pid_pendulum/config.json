@@ -44,7 +44,7 @@
   },
   "disturbance": {
     "enabled": true,
-    "time_s": 7.2,
+    "time_s": 7.1,
     "duration_s": 0.12,
     "force_n": 9.0
   },
