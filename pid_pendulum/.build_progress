@@ -215,3 +215,4 @@
 - Update disturbance impulse timing in configuration (iteration 214)
 - Increase plot history window for clearer signal inspection (iteration 215)
 - Adjust simulation timestep for numerical stability checks (iteration 216)
+- Refine cart friction parameter in physics settings (iteration 217)
