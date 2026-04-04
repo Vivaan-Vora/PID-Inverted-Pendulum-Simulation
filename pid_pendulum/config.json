@@ -29,7 +29,7 @@
   "pid": {
     "kp": 81.5,
     "ki": 1.0,
-    "kd": 21.4,
+    "kd": 20.6,
     "setpoint": 0.0,
     "output_limits": [
       -60.0,
