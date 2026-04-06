@@ -218,3 +218,4 @@
 - Refine cart friction parameter in physics settings (iteration 217)
 - Update random seed default for reproducible startup angles (iteration 218)
 - Refine control output limits in PID configuration (iteration 219)
+- Adjust pole mass parameter in physics configuration (iteration 220)
