@@ -212,3 +212,4 @@
 - Tune PID proportional gain for smoother transient response (iteration 211)
 - Adjust integral gain to reduce steady-state offset (iteration 212)
 - Refine derivative gain for improved damping (iteration 213)
+- Update disturbance impulse timing in configuration (iteration 214)
