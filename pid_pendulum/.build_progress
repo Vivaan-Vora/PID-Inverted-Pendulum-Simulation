@@ -219,3 +219,4 @@
 - Update random seed default for reproducible startup angles (iteration 218)
 - Refine control output limits in PID configuration (iteration 219)
 - Adjust pole mass parameter in physics configuration (iteration 220)
+- Update logging settle tolerance for recovery metrics (iteration 221)
