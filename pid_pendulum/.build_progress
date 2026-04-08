@@ -222,3 +222,4 @@
 - Update logging settle tolerance for recovery metrics (iteration 221)
 - Refine anti-windup gain in PID settings (iteration 222)
 - Tweak visualization frame rate target (iteration 223)
+- Adjust maximum angle safety threshold (iteration 224)
