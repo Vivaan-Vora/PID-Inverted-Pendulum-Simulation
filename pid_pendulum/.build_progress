@@ -238,3 +238,4 @@
 - Tweak visualization frame rate target (iteration 237)
 - Adjust maximum angle safety threshold (iteration 238)
 - Tune PID proportional gain for smoother transient response (iteration 239)
+- Adjust integral gain to reduce steady-state offset (iteration 240)
