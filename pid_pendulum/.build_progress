@@ -241,3 +241,4 @@
 - Adjust integral gain to reduce steady-state offset (iteration 240)
 - Refine derivative gain for improved damping (iteration 241)
 - Update disturbance impulse timing in configuration (iteration 242)
+- Increase plot history window for clearer signal inspection (iteration 243)
