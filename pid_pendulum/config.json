@@ -27,9 +27,9 @@
     "randomize_angle": true
   },
   "pid": {
-    "kp": 83.0,
+    "kp": 82.0,
     "ki": 1.0,
-    "kd": 19.8,
+    "kd": 18.2,
     "setpoint": 0.0,
     "output_limits": [
       -60.0,
@@ -44,7 +44,7 @@
   },
   "disturbance": {
     "enabled": true,
-    "time_s": 7.3,
+    "time_s": 6.9,
     "duration_s": 0.12,
     "force_n": 9.0
   },
