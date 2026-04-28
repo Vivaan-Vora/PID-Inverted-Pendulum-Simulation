@@ -1,7 +1,5 @@
 # PID Inverted Pendulum Simulation
 
-**Repository:** `pid-pendulum-sim`
-
 ## Project Overview
 
 This project demonstrates the design and implementation of a closed-loop control system applied to a classic cart-pole (inverted pendulum) configuration - an inherently unstable, nonlinear dynamic system. The pendulum initializes at a randomized angle, and a fully hand-implemented PID controller continuously computes and applies corrective forces to the cart in order to drive the pole to a stable upright equilibrium.
@@ -59,7 +57,7 @@ All physics constants and controller parameters are managed through a JSON-drive
 ## Repository Structure
 
 ```text
-pid-pendulum-sim/
+PID-Inverted-Pendulum-Simulation/
 └── pid_pendulum/
     ├── main.py               # Entry point and simulation loop orchestration
     ├── physics.py            # Nonlinear dynamics and RK4/Euler integrators
@@ -132,4 +130,4 @@ logs/run_<timestamp>_metrics.json
 
 ## Summary
 
-**PID Inverted Pendulum Simulation** (`pid-pendulum-sim`) is a complete, practical demonstration of applied feedback control - spanning nonlinear physics modeling, RK4 numerical integration, a production-quality PID implementation with full safeguard coverage, real-time visualization, quantitative disturbance robustness analysis, and structured data logging. The system is designed to be readable, modular, and extensible for future control experimentation.
+**PID Inverted Pendulum Simulation** is a complete, practical demonstration of applied feedback control - spanning nonlinear physics modeling, RK4 numerical integration, a production-quality PID implementation with full safeguard coverage, real-time visualization, quantitative disturbance robustness analysis, and structured data logging. The system is designed to be readable, modular, and extensible for future control experimentation.
