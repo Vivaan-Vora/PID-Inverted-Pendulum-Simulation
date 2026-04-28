@@ -265,3 +265,4 @@
 - Refine anti-windup gain in PID settings (iteration 264)
 - Tweak visualization frame rate target (iteration 265)
 - Adjust maximum angle safety threshold (iteration 266)
+- Tune PID proportional gain for smoother transient response (iteration 267)
