@@ -1,0 +1,74 @@
+{
+  "simulation": {
+    "dt": 0.01,
+    "duration_s": 16.0,
+    "integrator": "rk4",
+    "seed": 7,
+    "headless": false,
+    "stop_on_fall": false,
+    "max_angle_before_fall_deg": 75.0
+  },
+  "physics": {
+    "gravity": 9.81,
+    "cart_mass": 1.0,
+    "pole_mass": 0.22,
+    "pole_length": 0.5,
+    "cart_friction": 0.06
+  },
+  "initial_conditions": {
+    "cart_position_m": 0.0,
+    "cart_velocity_mps": 0.0,
+    "angular_velocity_deg_s": 0.0,
+    "angle_deg": 6.0,
+    "angle_deg_range": [
+      -10.0,
+      10.0
+    ],
+    "randomize_angle": true
+  },
+  "pid": {
+    "kp": 8.0,
+    "ki": 0.0,
+    "kd": 0.8,
+    "setpoint": 0.0,
+    "output_limits": [
+      -15.0,
+      15.0
+    ],
+    "integral_limits": [
+      -3.0,
+      3.0
+    ],
+    "derivative_filter_tau": 0.03,
+    "anti_windup_gain": 0.8
+  },
+  "disturbance": {
+    "enabled": true,
+    "time_s": 7.5,
+    "duration_s": 0.12,
+    "force_n": 9.0
+  },
+  "visualization": {
+    "pygame": {
+      "width": 900,
+      "height": 500,
+      "cart_width": 120,
+      "cart_height": 40,
+      "pixels_per_meter": 180.0,
+      "rod_pixels": 180,
+      "target_fps": 60
+    },
+    "plotter": {
+      "window_seconds": 10.0,
+      "max_points": 1500
+    }
+  },
+  "logging": {
+    "output_dir": "logs",
+    "settle_tolerance_deg": 2.0,
+    "settle_window_s": 0.5
+  },
+  "reference_lqr": {
+    "enabled": false
+  }
+}
