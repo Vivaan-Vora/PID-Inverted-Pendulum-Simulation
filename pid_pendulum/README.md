@@ -1,10 +1,10 @@
 # PID Inverted Pendulum Simulation
 
-## About
+## Project Overview
 
-This is a Python project I built to learn how a PID controller works by balancing a stick (pendulum) on a moving cart. The stick starts at a random angle, and the controller tries to keep it upright by moving the cart left and right.
+This project demonstrates the design and implementation of a closed-loop control system applied to a classic cart-pole (inverted pendulum) configuration - an inherently unstable, nonlinear dynamic system. The pendulum initializes at a randomized angle, and a fully hand-implemented PID controller continuously computes and applies corrective forces to the cart in order to drive the pole to a stable upright equilibrium.
 
-I wanted something I could actually see and play with — not just math on a page — so I added a live animation, real-time graphs, and sliders so I can change the PID gains while the simulation is running.
+The objective was to develop a complete, production-quality simulation rather than a minimal proof-of-concept. To that end, the physics engine, control logic, real-time visualization, live signal plotting, interactive gain tuning, disturbance injection, and data logging were each implemented as distinct, modular components.
 
 ---
 
